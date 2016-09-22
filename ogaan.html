@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>GrocerMax</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" type="text/css" href='css/bootstrap.min.css' />
+	<link rel="stylesheet" type="text/css" href='css/grocermaxFont.css' />
+	<link rel="stylesheet" type="text/css" href='css/custom.css' />
+	<style type="text/css">
+		.c-reset
+		{
+			margin:0px;
+			padding: 0px;
+		}
+		.c-bg-grey-1
+		{
+			background-color: #b2b2b2;
+		}
+		.c-bg-grey-2
+		{
+			background-color: #d2d2d2;
+		}
+		.c-bg-grey-3
+		{
+			background-color: #e2e2e2;
+		}
+		.c-m-10
+		{
+			margin:10px;
+		}
+		.c-p-10
+		{
+			padding:10px;
+		}
+		.c-active
+		{
+			border: solid 1px #000;
+		}
+		.c-zoom
+		{
+			zoom: 2; /* IE */
+-moz-transform: scale(2); /* Firefox */
+-moz-transform-origin: 0 0;
+-o-transform: scale(2); /* Opera */
+-o-transform-origin: 0 0;
+-webkit-transform: scale(2); /* Safari And Chrome */
+-webkit-transform-origin: 0 0;
+transform: scale(2); /* Standard Property */
+transform-origin: 0 0;  /* Standard Property */
+		}
+		img[id^="bakeri-images-lg-"]
+		{
+			transition: transform 0.5s;
+			-webkit-transition: transform 0.5s;
+		}
+	</style>
+</head>
+<body>
+<div class="container-fluid">
+	<h1 style="margin: 0px;width: 100%;z-index: 200;background-color: #fff;position: fixed;padding: 10px;"> Bakeri</h1>
+	<section style="margin-top: 57px;">
+		<div class="row c-reset" style="position: relative;">
+			<div class="col-xs-1 c-bg-grey-1">
+  <div style="position: fixed;">left section
+			 <div id="bakeri-thumbnails">
+				<div class="c-m-10"><img id="bakeri-images-thumb-1" data-ref="bakeri-images-lg-1" src="images/ogaan/pic1.jpg" class="c-active" width="60px" style="transition: transform 0.5s;-webkit-transition: transform 0.5s;"></div>
+				<div class="c-m-10"><img id="bakeri-images-thumb-2" data-ref="bakeri-images-lg-2" src="images/ogaan/pic2.jpg" width="60px" style="transition: transform 0.5s;-webkit-transition: transform 0.5s;"></div>
+				<div class="c-m-10"><img id="bakeri-images-thumb-3" data-ref="bakeri-images-lg-3" src="images/ogaan/pic3.jpg" width="60px" style="transition: transform 0.5s;-webkit-transition: transform 0.5s;"></div>
+				<div class="c-m-10"><img id="bakeri-images-thumb-4" data-ref="bakeri-images-lg-4" src="images/ogaan/pic4.jpg" width="60px" style="transition: transform 0.5s;-webkit-transition: transform 0.5s;"></div>
+			</div>
+			</div>
+</div>
+			<div class="col-xs-5 c-bg-grey-2" style="">middle
+			 <div id="bakeri-prod-images">
+				<div class="c-m-10" style="overflow:hidden;"><img id="bakeri-images-lg-1" src="images/ogaan/pic1.jpg" width="100%"></div>
+				<div class="c-m-10" style="overflow:hidden;"><img id="bakeri-images-lg-2" src="images/ogaan/pic2.jpg" width="100%"></div>
+				<div class="c-m-10" style="overflow:hidden;"><img id="bakeri-images-lg-3" src="images/ogaan/pic3.jpg" width="100%"></div>
+				<div class="c-m-10" style="overflow:hidden;"><img id="bakeri-images-lg-4" src="images/ogaan/pic4.jpg" width="100%"></div>
+			 </div>
+			</div>
+			<div class="col-xs-5 c-bg-grey-3"><div style="position: fixed;right: 0;" class="col-xs-5"><h2>Product details</h2>
+
+  <p> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+  <div class="c-m-10" style="width:250px;height:200px;overflow:hidden;"><img id='xyz' src="images/ogaan/pic4.jpg" width="100%"></div>
+  </div>
+</div>
+		</div>
+	</section>
+	<!-- SizeChart popup layout -->
+	<section> 
+		<div class="row c-reset">
+			<div class="col-md-7">
+				IMAGES
+				<div class="sm-size-chart" data-example-id="simple-responsive-table">
+					<div class="table-responsive"> <table class="table table-striped table-bordered"> 
+					<thead> 
+					<tr> 
+					<th class="text-right">Size</th> 
+					<th class="text-center"><a href="javascript:void(0);" class="m-size-btn">35</a></th>
+					<th class="text-center"><a href="javascript:void(0);" class="m-size-btn">36</a></th>
+					<th class="text-center"><a href="javascript:void(0);" class="m-size-btn">37</a></th>
+					<th class="text-center"><a href="javascript:void(0);" class="m-size-btn">38</a></th> <th class="text-center"><a href="javascript:void(0);" class="m-size-btn disabled">39</a></th>
+					</tr>
+					 </thead>
+					 <tbody> 
+					 <tr> <th scope="row" class="text-right">Brand Size</th>  <td class="text-center">S</td> <td>M</td> <td>L</td> <td>XL</td> <td>XXL</td> </tr> 
+					 <tr> <th scope="row" class="text-right">Chest (INCHES)</th>  <td>39</td> <td>42</td> <td>45</td> <td>47</td> <td>50</td> </tr>
+					  <tr> <th scope="row" class="text-right">Across Shoulder (INCHES)</th>  <td>17</td> <td>18</td> <td>19</td> <td>20</td> <td>21</td> </tr> 
+					  <tr> <th scope="row" class="text-right">Length (INCHES)</th>  <td>28</td> <td>28.5</td> <td>29</td> <td>29.5</td> <td>31</td> </tr> 
+					  </tbody> 
+			</div>
+			<div class="col-md-5">
+				<h1>Lorem Ipsum</h1>
+				<h2>product type</h2>
+				<p>
+					$89 <sub>including import duties/ Free shipping</sub> <a href="#">Find out more</a>
+				</p>
+			</div>
+		</div>
+	</section>
+	</div>
+	<style type="text/css">
+		.sm-size-chart table tbody td
+		{
+			text-align: center;
+		}
+		.m-size-btn
+		{
+			display: inline-block;
+			border: solid 1px #6d6d6d;
+			border-radius: 100%;
+			color: #6d6d6d;
+			padding: 8px 10px;
+			width: 37px;
+			height: 37px;
+		}
+		.m-size-btn.active
+		{
+			    border: solid 1px #6d6d6d;
+			    background-color: #6d6d6d;
+			    color: #fff;
+		}
+		.m-size-btn.disabled
+		{
+
+			text-decoration: line-through;
+			color: #bfbfbf;
+			border: solid 1px #c3c3c3;
+			background-color: #e8e8e8;
+
+		}
+		.m-size-btn:hover
+		{
+			border: solid 1px #6d6d6d;
+			    background-color: #6d6d6d;
+			    color: #fff;
+		}
+	</style>
+	<script type="text/javascript" src='js/jquery-2.0.2.js'></script>
+	<script type="text/javascript">
+$('.m-size-btn').click(function(){
+	$('.m-size-btn').removeClass('active');
+	$(this).toggleClass('active');
+})
+	// $(window).scroll(function()
+	// {
+	// 	if( $('[id^="bakeri-images-lg-"]').offset().top > $(window).scrollTop()
+	// })
+
+		$('[id^="bakeri-images-thumb-"]').click(function () {
+			var ref = $(this).data('ref');
+			
+			$('[id^="bakeri-images-thumb-"]').removeClass('c-active');
+			$(this).addClass('c-active');
+			$('html, body').animate({
+          scrollTop: $('#'+ref).offset().top-105,
+          easing: 'easeInOutQuart'
+        }, 500);
+			//window.location.href= '#'+ref;
+			console.log($(this).data('ref'));
+		})
+
+		// $('[id^="bakeri-images-lg-"]').click(function() {
+		// 	console.log('inside zoom');
+		// 	$(this).toggleClass('c-zoom');
+		// })
+		
+	</script>
+	<script type="text/javascript">
+		var scaleArg = 2.5;
+  $('[id^="bakeri-images-lg-"]')
+    // tile mouse actions
+    
+    .on('mouseover', function(){
+      $(this).css({'transform': 'scale('+scaleArg+')'});
+    })
+    .on('mouseout', function(){
+      $(this).css({'transform': 'scale(1)'});
+    })
+    .on('mousemove', function(e){
+    	
+    		var xx = (((e.pageX - $(this).offset().left) / $(this).width()) * 100)/scaleArg;
+    		if(xx > 100)
+    			xx=100;
+    	
+    		var yy = (((e.pageY - $(this).offset().top) / $(this).height()) * 100)/scaleArg;
+    		if(yy > 100)
+    			yy=100;
+    		
+    	
+      $(this).css({'transform-origin': xx + '% ' + yy +'%',    cursor: 'all-scroll'});
+    })
+
+
+
+	</script>
+</body>
+
+</html>

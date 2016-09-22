@@ -1,0 +1,227 @@
+@font-face {
+    font-family: 'OpenSans';
+    src:    url('../fonts/OpenSans-Regular.ttf');
+    src:    url('../fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src:    url('../fonts/OpenSans-Light.ttf');
+    src:    url('../fonts/OpenSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src:    url('../fonts/OpenSans-Bold.ttf');
+    src:    url('../fonts/OpenSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body
+{
+    font-family: 'OpenSans';
+}
+.c-font-dark
+{
+  color: #000;
+}
+.c-font-white
+{
+  color: #fff;
+}
+.c-font-light
+{
+font-weight: 300;
+}
+.c-font-slim
+{font-weight: 400;
+    
+}
+.c-font-sbold
+{font-weight: 400;
+    
+}
+.c-font-bold
+{
+    font-weight: 700;
+}
+.c-font-uppercase
+{
+    text-transform: uppercase;
+}
+.c-font-lowercase
+{
+    text-transform: lowercase;
+}
+.c-center
+{
+    text-align: center;
+}
+.c-bg-white
+{
+	background-color:#fff;
+}
+.c-font-10
+{
+  font-size:10px;
+}
+.c-font-11
+{
+  font-size:11px;
+}
+.c-font-12
+{
+  font-size:12px;
+}
+.c-font-13
+{
+	font-size:13px;
+}
+.c-font-14
+{
+  font-size:14px;
+}
+.c-font-15
+{
+  font-size:15px;
+}
+.c-font-16
+{
+  font-size:16px;
+}
+.c-font-17
+{
+  font-size:17px;
+}
+.c-font-18
+{
+  font-size:18px;
+}
+.c-font-19
+{
+  font-size:19px;
+}
+.c-font-20
+{
+	font-size:20px;
+}
+.c-font-24
+{
+  font-size:24px;
+}
+.c-font-25
+{
+  font-size:25px;
+}
+.c-font-26
+{
+	font-size:26px;
+}
+.c-font-30
+{
+  font-size:30px;
+}
+
+.c-reset
+{margin:0px;
+padding: 0px;}
+a:focus, a:hover
+{
+  color: #c2922d;
+	outline: none;
+	text-decoration: none;
+}
+
+.c-btn-shop
+{
+    background-color: #ee2d09;
+    display: inline-block;
+    padding: 5px 16px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+ .c-search-placeholder::-webkit-input-placeholder {
+           /* WebKit, Blink, Edge */
+    font-family: "OpenSans" , sans-serif;
+    color: #fff;
+        font-weight: 100;
+     
+}
+.c-search-placeholder:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   font-family: "OpenSans" , sans-serif;
+   color: #fff;
+       font-weight: 100;
+}
+.c-search-placeholder::-moz-placeholder { /* Mozilla Firefox 19+ */
+    font-family: "OpenSans" , sans-serif;
+    color: #fff;
+        font-weight: 100;
+}
+.c-search-placeholder:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-family: "OpenSans" , sans-serif;
+    color: #fff;
+        font-weight: 100;
+}
+.c-search-placeholder:placeholder-shown { /* Standard */
+   font-family: "OpenSans" , sans-serif;
+   color: #fff;
+       font-weight: 100;
+}
+
+.enteremailplaceholder::-webkit-input-placeholder {
+           /* WebKit, Blink, Edge */
+    font-family: "OpenSans" , sans-serif;
+    color: #fcbe32;
+    text-align: center;
+        font-weight: 100;
+     
+}
+.enteremailplaceholder:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   font-family: "OpenSans" , sans-serif;
+   color: #fcbe32;
+   text-align: center;
+       font-weight: 100;
+}
+.enteremailplaceholder::-moz-placeholder { /* Mozilla Firefox 19+ */
+    font-family: "OpenSans" , sans-serif;
+    color: #fcbe32;
+    text-align: center;
+        font-weight: 100;
+}
+.enteremailplaceholder:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-family: "OpenSans" , sans-serif;
+    color: #fcbe32;
+    text-align: center;
+        font-weight: 100;
+}
+.enteremailplaceholder:placeholder-shown { /* Standard */
+   font-family: "OpenSans" , sans-serif;
+   color: #fcbe32;
+       font-weight: 100;
+       text-align: center;
+}
+
+.la
+{
+  display: inline-block;
+      font: normal normal normal 14px/1 FontAwesome;
+      font-size: inherit;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      transform: translate(0, 0);
+}
+.la-heart:before {
+    content: "\f08a";
+}
+
+.la-heart:hover:before {
+        content: "\f004" !important;
+}
